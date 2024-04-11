@@ -91,6 +91,13 @@ Port: https://en.wikipedia.org/wiki/Port_(computer_networking)
 
 ![image](https://github.com/asyikin22/Express.js/assets/148519441/7d5ddf3f-dcb6-4872-8c3c-b5dabe24b983)
 
+**USING 'READFILESYNC' TO READ FILE CONTENT**
+* Note that if you change text/html to text/plain, it will display the HTML structure of the file instead of words
+  
+![image](https://github.com/asyikin22/Express.js/assets/148519441/7d26856d-2ba9-4d92-8510-fca67932d44c)
+
+
+
 
 
 
