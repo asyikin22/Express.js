@@ -96,6 +96,41 @@ Port: https://en.wikipedia.org/wiki/Port_(computer_networking)
   
 ![image](https://github.com/asyikin22/Express.js/assets/148519441/7d26856d-2ba9-4d92-8510-fca67932d44c)
 
+# EXPRESS.JS BASICS
+
+**DEFINITION**:
+
+* Minimal and flexible node.js web app framework designed to make developing web apps and APIs faster and easier
+* Link: https://expressjs.com/
+   1. Web application framework for Node.js
+   2. It's designed for web building applications and APIs
+   3. It provides a minimalist & flexible set of features for web and mobile apps
+ 
+ **EXPRESS BASICS**
+ 
+ ![image](https://github.com/asyikin22/Express.js/assets/148519441/638cd749-18c3-47b2-a929-842c16608974)
+
+ **STATIC FILES**:
+* Files that are served directly to the client without being processed by the server
+* Server doesn’t have to change them.
+* Common type:
+  
+![image](https://github.com/asyikin22/Express.js/assets/148519441/092da4ec-3cf1-46e1-80a3-16876e01bf37)
+
+**Common folder Names for static files**:
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/c904ee4e-f521-42a2-af4f-a98845342ea5)
+
+**Setting up static and middleware using express.static**:
+* 	We don’t have to create HTTP url for every resource, express will take care of it
+* 	It will set up the path, MIME types and status code
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/12c7daf8-831a-4f18-9cc1-8d328b7bc297)
+
+
+
+
+
 
 
 
