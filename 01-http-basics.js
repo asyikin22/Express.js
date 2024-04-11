@@ -3,7 +3,7 @@ const http = require('http')
 const {readFileSync} = require('fs');
 
 // get all files
-const homePage = readFileSync('./index.html')
+const homePage = readFileSync('./public/index.html')
 
 const server = http.createServer((req, res) => {
     // console.log(req.method)
