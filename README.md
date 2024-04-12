@@ -153,6 +153,33 @@ Port: https://en.wikipedia.org/wiki/Port_(computer_networking)
 ![image](https://github.com/asyikin22/Express.js/assets/148519441/da0c5be2-a007-4284-8158-3d76be3d5ca5)
 
 
+# PARAM, QUERY STRING
+
+**Setting up two routes using Express.js**
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/33f392a7-a6f4-4c76-9a3e-0a804cca16f2)
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/37b622a5-7bb0-49f8-b944-d323dc04a0f2)
+
+**SETTING UP GET REQUEST TO A SPECIFIC ENDPOINT (USER WITH ID:1)**
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/5f7b889a-b437-4ce0-8311-cea7f019c2c8)
+
+**ROUTE PARAMETER & QUERY STRING**
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/912b0e05-0ce9-4c33-9323-c4e4443d037c)
+
+**SETTING UP ROUTE PARAMETERS FOR BIG DATA**
+* With this code, I can find any user with ID from 1 to 10 without setting an individual end point in the route parameter
+* I can handle request for users ID using a single route handler
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/2b172ec8-ca3b-49fe-8612-c8778c629bcb)
+
+**NOTE:UNFINISHED**
+
+
+
+
 
 
 
