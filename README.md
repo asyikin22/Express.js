@@ -127,6 +127,37 @@ Port: https://en.wikipedia.org/wiki/Port_(computer_networking)
 
 ![image](https://github.com/asyikin22/Express.js/assets/148519441/12c7daf8-831a-4f18-9cc1-8d328b7bc297)
 
+# BASIC JSON
+
+**BASIC PRINCIPLES IN CREATING API USING EXPRESS.JS**
+* Define routes
+* Handle HTTP methods
+* Format data
+* Listen for incoming request.
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/366958c6-c896-4ddf-873e-cc0fa8dd3668)
+
+**Initialize the server and preparing it to handle incoming requests**:
+![image](https://github.com/asyikin22/Express.js/assets/148519441/103729b3-c5c7-422f-845b-595150bd01ed)
+
+**EXAMPLE 1 - BUILDING THE MOST BASIC API: Using res.json**
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/3c755dd3-fd34-4985-8ac6-da80df25035f)
+
+**EXAMPLE 2 - USING LARGER AND MEANINGFUL DATA**
+* I have created a file containing arrays of users and their information. I copied the data from here: https://jsonplaceholder.typicode.com/users
+* The file is named 'data.js' in the repo
+* I am going to import user array from data.js into my main file.
+* Example below shows the JSON response (snapshot of 1 out of 10 users)
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/da0c5be2-a007-4284-8158-3d76be3d5ca5)
+
+
+
+
+
+
+
 
 
 
