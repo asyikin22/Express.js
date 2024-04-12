@@ -177,6 +177,43 @@ Port: https://en.wikipedia.org/wiki/Port_(computer_networking)
 
 **NOTE:UNFINISHED**
 
+# MIDDLEWARE 
+
+**PURPOSE**:
+* Functions that execute during the request to the server
+* Each middleware function has access to request and response object
+* It's everywhere in express.
+
+**BASIC DEMONSTRATION**
+* This route handler demonstrates how middleware can be used to handle incoming requests and performs tasks
+* It intercepts incoming GET request to the root URL and perform some operations
+  1)  Logging to consoles (Method, url, time (year))
+  2)  Sending response to client
+* Middleware functions in Express have access to req and res objects allowing them to modify the request and response as needed
+  
+![image](https://github.com/asyikin22/Express.js/assets/148519441/06f321f6-6672-4d97-9f16-3e7e4548708c)
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/7673701b-ec21-4ab4-9235-e379910b3342)
+
+**Create separate middleware function to promote modularity, reusability and maintainability**:
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/800b4775-bfdf-41d4-9353-d8f182f5cec2)
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/c37043e4-8b35-4200-9208-5abe2344d02d)
+
+**How to use 'use()' function as a method in Express application instance**
+* I am using the previous code as an example
+* But this time I created separate files named logger.js and authorize.js and export the module to the main file 07
+* This lines of code sets up an Express application (app)
+* It imports a customer middleware function (logger) from logger.js file
+* It adds the logger and authorize middleware to the express application using app.use() method
+* It allows the logger and authorize middleware to intercept incoming requests and perform logging task before passing control to the subsequent middleware or route handlers
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/0eb638b8-c0f6-43cd-b7e4-9088a133f3f7)
+
+
+
+
 
 
 
