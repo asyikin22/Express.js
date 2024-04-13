@@ -211,6 +211,61 @@ Port: https://en.wikipedia.org/wiki/Port_(computer_networking)
 
 ![image](https://github.com/asyikin22/Express.js/assets/148519441/0eb638b8-c0f6-43cd-b7e4-9088a133f3f7)
 
+# METHODS
+
+**BASIC HTTP METHOD**
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/ecc50cc8-5e93-4b48-8d66-0c8421e8493c)
+
+**Setting up an Express route handler for GET requests to the /api/people endpoint.**:
+1) app.get('./api/people', (req, res) => { ... })
+   * This line defines a route handler for GET requests to the /api/people endpoint.
+   * When a GET request is made to this endpoint, the function specified as the second argument will be executed. 
+2) res.status(200).json({success: true, data: people})
+   * Inside the route handler function, this line sends a response to the client with a status code of 200 (OK) and a JSON object containing the data.
+   * The JSON object includes a success property set to true and a data property containing the people data.
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/a3d4ef37-233f-4c92-aef7-2b038ec8c965)
+
+**Serving static file using express.static (built-in middleware function in Express.js**:
+* At this stage, we can only serve the static files that make up the form but we don’t get access to the name input by the users.
+* So when anything is entered in the input box, we send the reponse 'POST' we haven't set up a proper route handler to process the form data
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/7490b6c2-c38b-4bbf-8f8e-d67e13cf55cd)
+
+**SETTING UP MIDDLEWARE TO PARSES INCOMING REQUEST BODIES THAT ARE IN URL-ENCODED FORMAT IN TRADITIONAL FORM (HTML)**
+
+* Source link: https://expressjs.com/en/5x/api.html
+* app.use(express.urlencoded({extended: false}))
+* This code will apply this middleware to all incoming requests
+* We use this code to tell express app to parse incoming request bodies in URL-encoded format
+* And make the parsed data available in 'req.body'
+* This allows you to access form data submitted from HTML forms in your Express route handlers
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/ee533f5e-909f-493a-8f82-a92945223b76)
+
+**WHAT IS EXACTLY REQUEST BODY?**
+* The name comes from the fact that the data is contained within the body of the HTTP request sent from client to server
+* This includes data from HTML forms
+* HTML form uses various HTTP methods to send form data to server
+* So when the form is submitted using POST method, the form data is sent in the body of the HTTP request
+* Note that the method specified in our previous example is 'POST' in the HTML file
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/7ce4d6cf-f4be-4f91-9fbe-f41c0fe48294)
+
+**USING JAVASCRIPT TO SEND HTTP REQUEST**:
+* Compared to form data (HTML), with JavaScript we don’t have action or method specified
+* In this example, we are using package called axios to set up HTTP request (https://axios-http.com/docs/intro)
+
+**HANDLING JSON-FORMATED POST REQUESTS TO THE ENDPOINT WITH JAVASCRIPT**:
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/5737f284-ecb7-4345-8b14-6afb4fb3b799)
+
+
+
+
+
+
 
 
 
