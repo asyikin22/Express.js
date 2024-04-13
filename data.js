@@ -228,7 +228,15 @@ const users = [
       "catchPhrase": "Centralized empowering task-force",
       "bs": "target end-to-end models"
     }
-  }
+  },
 ]
 
-module.exports = { users }
+const people = [
+  { id: 1, name: 'Asyikin' },
+  { id: 2, name: 'Austin' },
+  { id: 3, name: 'Liam' },
+  { id: 4, name: 'Lily' },
+  { id: 5, name: 'Emma' },
+]
+
+module.exports = { users, people }
