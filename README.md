@@ -261,6 +261,56 @@ Port: https://en.wikipedia.org/wiki/Port_(computer_networking)
 
 ![image](https://github.com/asyikin22/Express.js/assets/148519441/5737f284-ecb7-4345-8b14-6afb4fb3b799)
 
+# CRUD
+
+**POSTMAN**:
+* It provides a user-friendly interface for making HTTP requests to your API endpoints and allows you to view and analyze the responses.
+* It simplifies the process of testing APIs and helps developers debug and troubleshoot their API endpoints more efficiently.
+* Link: https://www.postman.com/
+  
+**Setting up an Express route handler for GET requests to the /api/people endpoint:**
+* NOTE: MOVE THE ARRAY TO A SEPARATE FILE NAMED 'USERS.JS' + EXPORT TO MAIN FILE
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/ff84e8b8-4eda-4d7f-b299-65708561feca)
+
+**MIDDLEWARE (LOGGER)**
+* Logger is the most basic and simple example to demonstrate what middleware is
+* Functions that have access to the request and response object and performs some operations on those object
+* In this example, when the user performs a request, 'hello' will be logged to the console
+![image](https://github.com/asyikin22/Express.js/assets/148519441/6064ce1d-54a5-4fdc-8a8f-e2e497b52c5e)
+
+**GET REQUEST USING URL PARAMETER**
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/db020435-0f91-49ec-ab97-cc29f0479f12)
+
+**What if users are not found? If statement**:
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/2cf799a1-1bef-4408-a0f8-87782bb3ef42)
+
+**POST REQUEST(CREATE USER)**
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/31fa365a-ed76-4288-ac87-58c6ff418509)
+
+**CREATE A NEW MEMBER AND ADD IT INTO THE ARRAY**
+* We installed UUID to generate random ID as we are not using Database
+* Import UUID module after installing it
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/75e90ef7-c8ae-4789-9329-bc05d0a43887)
+
+**PUT REQUEST(UPDATE USER)**
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/569d39c2-ee5e-4986-8ef1-a40865a7dbc6)
+
+**DELETE REQUEST (DELETE USER)**
+
+![image](https://github.com/asyikin22/Express.js/assets/148519441/98cb3224-4636-4b72-a94d-a4dfe6892bbb)
+
+
+
+
+
+
+
 
 
 
